@@ -1,0 +1,62 @@
+.conteiner .title {
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 2rem 0 1rem;
+}
+
+.title .query-text{
+    color: red;
+}
+
+.movies-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.movies-conteiner div{
+    width: 30%;
+    color: rgb(255, 255, 255);
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #111;
+    padding: 1rem;
+}
+
+.movies-conteiner div img {
+    max-width: 100%;
+}
+
+.movies-conteiner div img,
+.movies-conteiner div h2,
+.movies-conteiner div p {
+    margin-bottom: 1rem;
+}
+
+.movies-conteiner div svg{
+    color: #f7d354;
+}
+
+.movies-conteiner div a{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    color: black;
+    padding: 1rem 0.5rem;
+    align-items: center;
+    transition: .4s;
+    text-align: center;
+    font-weight: bold;
+}
+
+.movies-conteiner div a:hover{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+
+}
